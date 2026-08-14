@@ -10,11 +10,7 @@ This repository contains a fictional System Security Plan (SSP) and Plan of Acti
 
 ## Contents
 
-- **SSP_CaseTrack.md** — Full System Security Plan: system identification, authorization boundary, FIPS 199 categorization, control baseline selection, 40 control implementation statements across all 20 NIST SP 800-53 families, and a continuous monitoring strategy
-- **POAM_CaseTrack.md** — Plan of Action & Milestones tracker documenting remediation plans, risk ratings, resources, and target completion dates for the 11 control gaps identified in the SSP
-
-## About Me
-
-I'm a GRC and risk management professional pursuing ISSO, ISSM, GRC Program Manager, and Cybersecurity Program Manager roles in federal and GovTech environments. I hold CompTIA Security+ and CySA+, with CISM in progress, and bring a strong project management and enterprise risk background.
-
-**Contact:** [LinkedIn](https://linkedin.com/in/kaylabryant) | bryantkaylaa@gmail.com
+- [README.md](./README.md) — Portfolio overview and repository guide
+- [SSP_CaseTrack.md](./SSP_CaseTrack.md) — System Security Plan for the CaseTrack system, documenting security controls, system boundaries, and implementation details
+- [POAM_CaseTrack.md](./POAM_CaseTrack.md) — Plan of Action and Milestones (POA&M) tracker identifying, prioritizing, and tracking remediation of security weaknesses for CaseTrack
+- [Vulnerability_Assessment_Analysis.md](./Vulnerability_Assessment_Analysis.md) — Vulnerability assessment analysis, including scan methodology, findings, and risk-based recommendations
