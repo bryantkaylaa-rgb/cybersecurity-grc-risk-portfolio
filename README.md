@@ -14,3 +14,5 @@ This repository contains a fictional System Security Plan (SSP) and Plan of Acti
 - [SSP_CaseTrack.md](./SSP_CaseTrack.md) — System Security Plan for the CaseTrack system, documenting security controls, system boundaries, and implementation details
 - [POAM_CaseTrack.md](./POAM_CaseTrack.md) — Plan of Action and Milestones (POA&M) tracker identifying, prioritizing, and tracking remediation of security weaknesses for CaseTrack
 - [Vulnerability_Assessment_Analysis.md](./Vulnerability_Assessment_Analysis.md) — Vulnerability assessment analysis, including scan methodology, findings, and risk-based recommendations
+- [NIST_SOC2_Crosswalk.md](./NIST_SOC2_Crosswalk.md) — Control mapping translating NIST SP 800-53 control families into SOC 2 Trust Services Criteria, demonstrating cross-framework GRC and vendor risk analysis capability
+- [SECURITY_ROADMAP_CaseTrack.md](./SECURITY_ROADMAP_CaseTrack.md) — Phased remediation and maturity roadmap synthesizing SSP, POA&M, and Vulnerability Assessment findings into a sequenced security program plan
