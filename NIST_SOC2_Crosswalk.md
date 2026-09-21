@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This artifact extends the System Security Plan (SSP) and Plan of Action and Milestones (POA&M) in this portfolio by translating federal NIST 800-53 control families into the commercial SOC 2 Trust Services Criteria (TSC) framework. Organizations pursuing SOC 2 Type II attestation rely on control mappings like this one to demonstrate that a single set of implemented controls satisfies multiple compliance obligations, reducing duplicate audit work and strengthening the organization's overall control posture.
+This artifact extends the System Security Plan (SSP) and Plan of Action and Milestones (POA&M) in this portfolio by translating federal NIST SP 800-53 control families into the commercial SOC 2 Trust Services Criteria (TSC) framework. Cross-framework mappings can help organizations identify where existing controls may support multiple compliance objectives, reduce duplicative assessment effort, and identify areas requiring additional validation.
 
-This crosswalk was built using the control families already documented in the SSP included in this repository, showing how federal-grade control design carries directly into commercial governance, risk, and compliance (GRC) work.
+This crosswalk was built using the control families already documented in the SSP included in this repository, showing how federal security control concepts can be mapped to related commercial governance, risk, and compliance (GRC) objectives.
 
 ## Why This Matters
 
@@ -23,7 +23,7 @@ Understanding this overlap allows a GRC professional to move fluidly between fed
 | Identification and Authentication (IA) | IA-2 Identification and Authentication, IA-5 Authenticator Management | CC6.1 (Security - Logical Access) | Both require verifying user identity before granting system access and managing credentials securely throughout their lifecycle. |
 | Incident Response (IR) | IR-4 Incident Handling, IR-6 Incident Reporting, IR-8 Incident Response Plan | CC7.3, CC7.4 (Security - Incident Response) | Both require a documented incident response plan, defined escalation paths, and evidence of timely detection and remediation of security incidents. |
 | Risk Assessment (RA) | RA-3 Risk Assessment, RA-5 Vulnerability Monitoring and Scanning | CC3.1, CC3.2 (Security - Risk Assessment) | Both require periodic risk assessments and vulnerability scanning to identify and prioritize remediation of security weaknesses. |
-| System and Communications Protection (SC) | SC-7 Boundary Protection, SC-8 Transmission Confidentiality and Integrity, SC-13 Cryptographic Protection | CC6.6, CC6.7 (Security - Data Protection in Transit) | Both require network segmentation, encryption of data in transit, and boundary controls to prevent unauthorized data exposure. |
+| NIST SC controls addressing boundary protection, transmission security, and cryptographic safeguards align conceptually with SOC 2 logical access and system protection criteria intended to protect information and restrict unauthorized access or disclosure. |
 | System and Information Integrity (SI) | SI-2 Flaw Remediation, SI-4 System Monitoring | CC7.1 (Security - System Monitoring) | Both require ongoing monitoring for vulnerabilities and timely patching or remediation once flaws are identified. |
 | Planning (PL) | PL-2 System Security Plan, PL-4 Rules of Behavior | CC1.1, CC1.2 (Control Environment) | Both require documented governance artifacts establishing the security program's scope, policies, and expected user conduct. |
 | Personnel Security (PS) | PS-3 Personnel Screening, PS-7 External Personnel Security | CC1.4 (Control Environment - Personnel) | Both require screening personnel and third parties who have access to systems or sensitive data before granting that access. |
@@ -31,11 +31,11 @@ Understanding this overlap allows a GRC professional to move fluidly between fed
 
 ## Application to Third-Party and Vendor Risk Management
 
-The Supply Chain Risk Management (SR) and Personnel Security (PS) mappings above are the most directly applicable to commercial third-party risk management (TPRM) work. A vendor risk review that evaluates a supplier's SOC 2 report is, in practice, evaluating whether that supplier maintains controls equivalent to SR-2, SR-6, and the broader access and monitoring families listed above. Reading and assessing a vendor's SOC 2 Type II report requires the same control literacy demonstrated in this crosswalk.
+The Supply Chain Risk Management (SR) and Personnel Security (PS) mappings above are the most directly applicable to commercial third-party risk management (TPRM) work. In practice, a vendor risk review that evaluates a supplier's SOC 2 report assesses whether the supplier maintains controls that address comparable risk and control objectives reflected in SR-2 and SR-6
 
 ## Methodology and Limitations
 
-This crosswalk maps control families and representative controls at a conceptual level to support GRC analysis, vendor risk review, and cross-framework communication. It is not a substitute for a formal, control-by-control gap assessment conducted during an actual SOC 2 readiness engagement, and it does not represent an official or audited mapping. Organizations pursuing dual compliance should engage a qualified SOC 2 auditor to validate control sufficiency against the specific Trust Services Criteria applicable to their engagement (Security, Availability, Processing Integrity, Confidentiality, and Privacy).
+This crosswalk maps control families and representative controls at a conceptual level to support GRC analysis, vendor risk review, and cross-framework communication. It is not a substitute for a formal, control-by-control gap assessment conducted during an actual SOC 2 readiness engagement, and it does not represent an official or audited mapping. Organizations pursuing dual compliance should validate control design, implementation, and evidence against the Trust Services Criteria applicable to the engagement. To validate control sufficiency against the specific Trust Services Criteria applicable to their engagement (Security, Availability, Processing Integrity, Confidentiality, and Privacy).
 
 ## Related Artifacts in This Portfolio
 
