@@ -1,11 +1,11 @@
 # Plan of Action & Milestones (POA&M): CaseTrack
 
 **Prepared by:** Kayla Bryant, MBA, PMP
-**Document Type:** Portfolio Exercise — Fictional System, RMF-Aligned
+**Document Type:** Independent Cybersecurity GRC Portfolio Project
 **Framework:** NIST SP 800-18 Rev. 1, OMB Circular A-130 POA&M guidance
 **As of:** August 2026
 
-> **Note:** This POA&M tracks remediation of control weaknesses identified in the CaseTrack System Security Plan (see `SSP_CaseTrack.md`). CaseTrack is a fictional system created for portfolio demonstration purposes only.
+Portfolio Disclosure: CaseTrack is a simulated organization and case management environment I created to demonstrate practical application of NIST RMF, security governance, risk assessment, control implementation, remediation planning, and authorization documentation. All organizational details, systems, personnel, and data used in this project were created solely for portfolio purposes.
 
 ---
 
@@ -81,7 +81,7 @@ A POA&M documents known security weaknesses, the plan to remediate them, the res
 | **Weakness Description** | Continuous monitoring exists for a subset of technical controls but is not yet integrated into an organization-wide dashboard. |
 | **Source** | Internal control assessment |
 | **Risk Rating** | Low |
-| **Recommended Corrective Action** | Integrate CaseTrack monitoring feeds into the enterprise continuous monitoring platform. |
+| **Recommended Corrective Action** |Integrate CaseTrack security monitoring feeds into the enterprise continuous monitoring capability to support centralized visibility, assessment, and reporting of system security status.
 | **Resources Required** | Coordination with enterprise security operations team |
 | **Scheduled Completion** | Q1 2027 |
 | **Milestones** | Integration requirements scoped (Dec 2026) → Feed integration complete (Feb 2027) |
@@ -171,8 +171,8 @@ A POA&M documents known security weaknesses, the plan to remediate them, the res
 | **Weakness Description** | Baseline logging exists, but no dedicated monitoring capability (e.g., intrusion detection, behavioral anomaly alerting) is deployed for CaseTrack specifically. |
 | **Source** | Internal control assessment |
 | **Risk Rating** | Moderate |
-| **Recommended Corrective Action** | Evaluate and deploy an application-layer monitoring/anomaly detection capability. |
-| **Resources Required** | Tooling evaluation, budget approval, 30 hours implementation |
+| **Recommended Corrective Action** | Evaluate, select, and deploy an application-layer security monitoring and anomaly detection capability for CaseTrack, including alerting requirements and documented response procedures.|
+| **Resources Required** | Tooling evaluation, budget approval, 30 hours of implementation |
 | **Scheduled Completion** | Q1 2027 |
 | **Milestones** | Tooling evaluated and selected (Dec 2026) → Deployed to production (Feb 2027) |
 | **Status** | Not Started |
@@ -197,4 +197,4 @@ A POA&M documents known security weaknesses, the plan to remediate them, the res
 
 ## Notes
 
-This POA&M is a static snapshot for portfolio purposes. In a live system, the POA&M would be updated continuously as items are remediated, re-assessed, or as new weaknesses are identified through ongoing continuous monitoring, audits, or vulnerability scanning.
+This POA&M represents an August 2026 snapshot of CaseTrack remediation activities. POA&M items are updated as weaknesses are remediated, reassessed, rescoped, or identified through continuous monitoring, control assessments, audits, and vulnerability management activities.
