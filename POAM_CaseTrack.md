@@ -20,8 +20,8 @@ A POA&M documents known security weaknesses, the plan to remediate them, the res
 | Risk Rating | Count |
 |---|---|
 | High | 2 |
-| Moderate | 6 |
-| Low | 3 |
+| Moderate | 5 |
+| Low | 4 |
 | **Total Open Items** | **11** |
 
 ---
