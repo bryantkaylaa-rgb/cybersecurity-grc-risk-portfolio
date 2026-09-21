@@ -44,7 +44,7 @@ Progress is measured against NIST CSF Tiers:
 | POAM-003 | AU-6 | Moderate | Deploy automated audit log alerting for anomalous access |
 | POAM-006 | IR-6 | Moderate | Define and document external incident reporting timelines with legal/compliance |
 
-**Phase 1 outcome:** Both High-risk items closed; three of six Moderate items closed. This is the phase where CaseTrack moves from reactive to defensible — an auditor or AO reviewing the system after Q4 2026 sees no open High-risk findings.
+**Phase 1 outcome:** Both High-risk items closed; three of five Moderate items closed. This is the phase where CaseTrack moves from reactive to defensible with an auditor or AO reviewing the system after Q4 2026 sees no open High-risk findings.
 
 ---
 
@@ -63,6 +63,23 @@ Progress is measured against NIST CSF Tiers:
 
 **Phase 2 outcome:** All 11 original POA&M items closed. CaseTrack reaches **Tier 3 — Repeatable**: every control gap identified in the SSP now has a documented, consistently applied process behind it.
 
----
+---## Phase 3 — Long-Term (Q2 2027 and Beyond): Sustain and Optimize
+
+**Goal:** Maintain the Tier 3 security posture achieved through remediation while establishing continuous improvement practices that move CaseTrack toward Tier 4 — Adaptive maturity.
+
+With the original POA&M items closed, the focus shifts from remediation to sustained governance, continuous monitoring, and proactive risk management.
+
+Key activities include:
+
+- Monitor control effectiveness through defined security metrics and continuous monitoring
+- Conduct periodic control assessments to identify emerging gaps before they become significant weaknesses
+- Review vulnerability trends and remediation performance to identify recurring risk patterns
+- Reassess third-party and supplier risk as services, contracts, or threat conditions change
+- Conduct recurring incident response and disaster recovery exercises
+- Review access privileges periodically to validate continued least-privilege enforcement
+- Evaluate changes in NIST guidance, organizational requirements, and emerging threats for potential control updates
+- Track lessons learned from assessments, incidents, exercises, and remediation activities to improve security processes
+
+**Phase 3 outcome:** CaseTrack operates under a sustainable security governance model in which controls are continuously monitored, risks are reassessed as conditions change, and lessons learned inform ongoing improvements. These practices establish a pathway from **Tier 3 — Repeatable** toward **Tier 4 — Adaptive** maturity.
 
 ## Phase 3 —
